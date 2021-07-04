@@ -40,7 +40,10 @@ git remote add origin <github 디렉토리 http 주소>
    
 git add .  
 현재 디렉토리에 있는 모든 파일 및 디렉토리를 staged 상태(현재 수정한 파일을 곧 Commit할 것이라고 표시한 상태)로 만든다.  
-
+  
+git rm --cached <파일명.확장자>  
+tracked 파일을 Untracked 파일로 만드는 명령어이다.  
+  
 git commit -m "<message입력>"  
 staged 파일들을 commit 한다. 반드시 해야하는 과정이다.  
    
