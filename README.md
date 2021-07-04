@@ -25,7 +25,7 @@ git은 기본적으로 master 브랜치를 만든다. Git은 최초로 커심하
 Git은 HEAD라는 특수한 포인터를 갖고 있다. 이 포인터는 지금 작업하고 있는 로컬 브랜치를 가리킨다. "git branch <branch명>" 명령은 브랜치를 만들기만하고 브랜치를 옮기지는 않는다.
 "git checkout <branch명>" 명령으로 HEAD가 가리키는 브랜치로 이동할 수 있다.
 
-<command>
+##command
 gitconfig --global user.name <user명>
 초기 환경 설정 명령으로, 작업자의 이름을 설정하는 명령어이다.
 
