@@ -26,10 +26,10 @@ Git은 HEAD라는 특수한 포인터를 갖고 있다. 이 포인터는 지금 
 "git checkout <branch명>" 명령으로 HEAD가 가리키는 브랜치로 이동할 수 있다.
 
 ## command
-gitconfig --global user.name <user명>
+gitconfig --global user.name <user명>  
 초기 환경 설정 명령으로, 작업자의 이름을 설정하는 명령어이다.
 
-gitconfig --global user.email <email> 
+gitconfig --global user.email <email>  
 초기 환경 설정 명령으로, 작업자의 이메일을 설정하는 명령어이다.
 
 git init
