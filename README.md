@@ -50,7 +50,7 @@ tracked 파일을 Untracked 파일로 만드는 명령어이다.
 git commit -m "<message입력>"  
 staged 파일들을 commit 한다. 반드시 해야하는 과정이다.  
 
-git log 
+git log  
 commit 목록을 출력하는 명령어이다.  
    
 git push orgin master  
