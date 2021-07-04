@@ -52,3 +52,13 @@ staged 파일들을 commit 한다. 반드시 해야하는 과정이다.
    
 git push orgin master  
 master 브랜치에 push 하는 명령어이다.  
+
+
+## push가 안되는 경우
+![image](https://user-images.githubusercontent.com/79975172/124391320-09a3e400-dd2b-11eb-86b5-63e1c31f46dc.png)  
+이렇게 뜨는 경우 push전에 pull을 해서 프로젝트를 병합해야한다.
+
+pull 명령 실행시 "refusing to merge unrelated histories" 라는 문구가 나오면  
+git pull origin <브랜치명> --allow-unrelated-histories
+명령을 입력한다. 
+git은 관련기록이 없는 두 프로젝트트를 거부하도록 되어있는데 이를 허용하도록 하는 옵션이 --allow-unrelated-hisotries 이다.
