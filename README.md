@@ -65,3 +65,7 @@ pull 명령 실행시 "refusing to merge unrelated histories" 라는 문구가 �
 git pull origin <브랜치명> --allow-unrelated-histories
 명령을 입력한다. 
 git은 관련기록이 없는 두 프로젝트트를 거부하도록 되어있는데 이를 허용하도록 하는 옵션이 --allow-unrelated-hisotries 이다.
+
+## merge
+git에 있는 파일과 로컬 저장소에 같은 이름의 파일이 있으나 내용이 다른 경우 pull 이 되지 않는다.  
+로컬에 있는 파일을 add 및 commit 하고
