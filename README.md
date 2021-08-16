@@ -67,11 +67,11 @@ git pull origin <브랜치명> --allow-unrelated-histories
 git은 관련기록이 없는 두 프로젝트트를 거부하도록 되어있는데 이를 허용하도록 하는 옵션이 --allow-unrelated-hisotries 이다.
 
 ## pull 덮어쓰기
-깃에 있는 파일을 로컬 저장소에 덮어쓰기 하고자 하는 경우    
-git fetch --all 
+깃에 있는 파일을 로컬 저장소에 덮어쓰기 하고자 하는 경우  
+git fetch --all   
 git pull 받을 목록을 repository에서 업데이트  
   
-git reset --hard origin/master 
+git reset --hard origin/master  
 git reset으로 head를 최신으로 가리킨다.    
   
 git pull  
