@@ -53,8 +53,26 @@ staged 파일들을 commit 한다. 반드시 해야하는 과정이다.
 git log  
 commit 목록을 출력하는 명령어이다.  
    
-git push orgin master  
-master 브랜치에 push 하는 명령어이다.  
+git push origin master  
+master 브랜치에 push 하는 명령어이다. 
+  
+git branch <branch명>   
+branch 생성하는 명령어이다.  
+  
+git branch -b <branch명>  
+branch 생성과 동시에 생성 branch 로 이동하는 명령어이다.  
+  
+git branch -d <branch명>  
+branch를 삭제하는 명령어이다.  
+  
+git branch -r  
+원격 branch를 출력하는 명령어이다.  
+  
+git branch -a  
+원격 및 로컬 branch를 출력하는 명령어이다.  
+  
+git merge <branch명>  
+현재 브랜치와 <branch명>을 merge 하는 명령어이다.
 
 
 ## push가 안되는 경우
