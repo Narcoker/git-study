@@ -63,7 +63,10 @@ git branch -b <branch명>
 branch 생성과 동시에 생성 branch 로 이동하는 명령어이다.  
   
 git branch -d <branch명>  
-branch를 삭제하는 명령어이다.  
+local branch를 삭제하는 명령어이다.  
+  
+git push -d origin <branch명>  
+local branch를 삭제 한 것을 remote branch에 반영
   
 git branch -r  
 원격 branch를 출력하는 명령어이다.  
